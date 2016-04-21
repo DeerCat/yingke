@@ -1,0 +1,28 @@
+.m-classtify {
+  width: 100%;
+  .m-classtify-header {
+    width: 100%;
+    @include box-sizing(border-box);
+    @include border($border-width: 1px 0 0 0, $border-color: #cdcdcd);
+    height: .44rem;
+    background: #ff6162;
+    @include flexbox(inline);
+    @include flex-direction(row);
+    @include align-items(center);
+    .backBtn, .searchBth {
+      width: 0.40rem;
+      @include flexbox(inline);
+      justify-content: space-around;
+    }
+
+    .search {
+      flex-grow: 1;
+      height: 0.34rem;
+      border: none;
+      text-indent: 0.10rem;
+      font-size: .14rem;
+      font-family: PingFangSC-Regular, sans-serif;
+      color: #999999;
+    }
+  }
+}

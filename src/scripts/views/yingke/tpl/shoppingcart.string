@@ -1,0 +1,7 @@
+<div class="m-shoppingcart">
+    <div class="m-shoppingcart-header">
+        <div class="backBtn"><img style="height:0.20rem;" src="icon/back.png" /></div>
+        <div class="shoppingcart-title"><b>购物车</b></div>
+        <div class="compileBtn"><b>编辑</b></div>
+    </div>
+</div>

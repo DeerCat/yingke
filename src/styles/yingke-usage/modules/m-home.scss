@@ -1,0 +1,112 @@
+@charset "utf-8";
+@import 'http://www.yingke.com/yingke/src/styles/yingke-usage/core/swiper-3.3.1.min.css';
+.m-home{
+  width:100%;
+  height:100%;
+  .m-home-header{
+	width:100%;
+	@include box-sizing(border-box);
+	@include border($border-width: 1px 0 0 0, $border-color: #cdcdcd);
+	height: .44rem;
+	background:#ff6162;
+	@include flexbox(inline);
+	@include flex-direction(row);
+	@include align-items(center);
+	.backBtn,.searchBth{
+	  width:0.40rem;
+	  @include flexbox(inline);
+	  justify-content:space-around;
+	}
+
+	.search{
+	  flex-grow:1;
+	  height:0.34rem;
+	  border:none;
+	  text-indent:0.10rem;
+	  font-size:.14rem;
+	  font-family: PingFangSC-Regular, sans-serif;
+	  color:#999999;
+	}
+  }
+  //首页焦点图
+  .swiper-focus {
+	width:100%;
+	height:1.3rem;
+	position:relative;
+	img{
+
+	  width:100%;
+	  height:100%;
+	}
+	.swiper-pagination{
+
+	  margin: 0 auto;
+	  width: 100%;
+	  bottom:0;
+	  //分页器属性
+	  .swiper-pagination-bullet{
+		margin:0 0.05rem;
+
+	  }
+	}
+  }
+  //商城一级分类
+  .category-level1{
+	@include box-sizing(border-box);
+	padding-top: .12rem;
+	padding-bottom: .12rem;
+	width:100%;
+	@include flexbox(inline);
+	*{
+	  display: block;
+	  margin:0 auto;
+	  text-align:center;
+	  font-size:0.11rem;
+	  color:#818181;
+	  line-height: 0.2rem;
+	}
+	li{
+	  flex-grow:1;
+	}
+
+	img{
+	  width:0.52rem;
+	}
+
+  }
+  //首页商品展示
+  .goods-list{
+	width:100%;
+	@include box-sizing(border-box);
+	@include flexbox(inline);
+	background:#fff;
+	li:first-child,li:last-child{
+	  flex-grow:1;
+	  text-align:center;
+	  a{
+		color:#818181;
+		display::inline-block;
+		width: 0.8rem;
+		height: 0.41rem;
+		line-height:.41rem;
+		border-bottom:0.02rem solid #fff;
+	  }
+	}
+	li[class*="selected"] a{
+	  border-bottom:0.02rem solid #ff6162;
+	  color:#ff6162;
+	}
+	li:nth-child(2){
+	  width:1px;
+	  background:#ccc;
+	  height:0.23rem;
+	  margin-top:0.1rem;
+	}
+  }
+
+  .swiper-goods{
+	width:100%;
+	height:100%;
+  }
+}
+

@@ -1,0 +1,49 @@
+<div class="m-home">
+    <div class="m-home-header">
+        <div class="backBtn"><img style="height:0.20rem;" src="icon/back.png" /></div>
+        <input type="search" name="search" class="search" placeholder="仅搜索商城商品">
+        <div class="searchBth"><img style="height:0.20rem;" src="icon/searchbtn.png" /></div>
+    </div>
+    <div class="swiper-focus">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="images/focus-pic/focus1.jpg" /></div>
+        <div class="swiper-slide"><img src="images/focus-pic/focus2.jpg" /></div>
+        <div class="swiper-slide"><img src="images/focus-pic/focus3.jpg" /></div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <ul class="category-level1">
+        <li>
+            <a href="javascript:void(0)"><img src="icon/category1/dyzb.png"></a>
+            <i>电影周边</i>
+        </li>
+        <li>
+            <a href="javascript:void(0);"><img src="icon/category1/srlp.png"></a>
+            <i>生日礼品</i>
+        </li>
+        <li>
+            <a href="javascript:void(0);"><img src="icon/category1/bgyp.png"></a>
+            <i>办公用品</i>
+        </li>
+        <li>
+            <a href="javascript:void(0);"><img src="icon/category1/jydq.png"></a>
+            <i>家用电器</i>
+        </li>
+        <li>
+            <a href="javascript:void(0);"><img src="icon/category1/jjyp.png"></a>
+            <i>家居用品</i>
+        </li>
+    </ul>
+    <ul class="goods-list">
+        <li class="hots selected list" data-count="0"><a href="javascript:void(0);">热销</a></li>
+        <li></li>
+        <li class="new list" data-count="1"><a href="javascript:void(0);">最新</a></li>
+    </ul>
+    <div class="swiper-goods">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">热销</div>
+            <div class="swiper-slide">最新</div>
+        </div>
+    </div>
+</div>

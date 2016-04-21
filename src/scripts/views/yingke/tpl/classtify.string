@@ -1,0 +1,10 @@
+<div class="m-classtify">
+	<div class="m-classtify-header">
+		<div class="backBtn"><img style="height:0.20rem;" src="icon/back.png" /></div>
+		<input type="search" name="search" class="search" placeholder="仅搜索商城商品">
+		<div class="searchBth"><img style="height:0.20rem;" src="icon/searchbtn.png" /></div>
+	</div>
+</div>
+
+
+	

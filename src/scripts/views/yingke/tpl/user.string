@@ -1,0 +1,7 @@
+<div class="m-user">
+    <div class="m-user-header">
+        <div class="back-btn"><img style="height:0.20rem;" src="icon/back.png" /></div>
+        <div class="user-title"><b>个人中心</b></div>
+        <div class="compile-btn"><b>编辑</b></div>
+    </div>
+</div>

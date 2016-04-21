@@ -1,0 +1,26 @@
+<section class="m-index">
+
+  <div class="m-index-body">
+      
+  </div>
+  <div class="m-index-nav">
+  	<ul>
+  		<li class="active" id="home" action-type="tab.switch" data-tag="home" node-type="home">
+  			<i></i>
+  			<b>首页</b>
+  		</li>
+  		<li id="classify" action-type="tab.switch" data-tag="classtify" node-type="classtify">
+  			<i></i>
+  			<b>分类</b>
+  		</li>
+  		<li id="shoppingcart" action-type="tab.switch" data-tag="shoppingcart" node-type="shoppingcart">
+  			<i></i>
+  			<b>购物车</b>
+  		</li>
+  		<li id="user" action-type="tab.switch" data-tag="user" node-type="user">
+  			<i></i>
+  			<b>个人中心</b>
+  		</li>
+  	</ul>
+  </div>
+</section>

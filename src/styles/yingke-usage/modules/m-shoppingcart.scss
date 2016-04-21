@@ -1,0 +1,23 @@
+.m-shoppingcart{
+  width:100%;
+  .m-shoppingcart-header{
+    width:100%;
+    @include box-sizing(border-box);
+    @include border($border-width: 1px 0 0 0, $border-color: #cdcdcd);
+    height: .44rem;
+    background:#ff6162;
+    @include flexbox(inline);
+    @include flex-direction(row);
+    @include align-items(center);
+    color:#fff;
+    .backBtn,.compileBtn{
+      width: 0.40rem;
+      @include flexbox(inline);
+      justify-content:space-around;
+    }
+    .shoppingcart-title{
+      @include flex(1);
+      text-align:center;
+    }
+  }
+}
