@@ -4,4 +4,7 @@
         <div class="shoppingcart-title"><b>购物车</b></div>
         <div class="compileBtn"><b>编辑</b></div>
     </div>
-</div>
+    <div class="m-shoppingcart-body" style="">
+
+    </div>
+</>

@@ -74,7 +74,7 @@ $base: (
     // font-family
     // escape('微软雅黑').replace(/\%u/g,'\\').toLowerCase()
     // 可参考http://alloyteam.github.io/Spirit/modules/Standard/index.html
-    font-family:          #{PingFangSC-Semibold,"Helvetica Neue", Helvetica, STHeiTi, sans-serif},
+    font-family:          #{yofont,PingFangSC-Semibold,"Helvetica Neue", Helvetica, STHeiTi, sans-serif},
     // lin-height
     line-height:          1.5,
     // 默认文档背景色

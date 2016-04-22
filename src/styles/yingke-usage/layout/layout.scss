@@ -16,7 +16,7 @@ qapp-view {
     top:0;
     left: 0;
     width: 100%;
-    bottom:.49rem;
+    bottom:0;
     background: #eceef0 !important;
     @include flexbox(flex);
     @include flex-direction(column);
