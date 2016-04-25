@@ -5,6 +5,10 @@ var TAGS = ["home","classtify","shoppingcart","user"]
 QApp.defineView('index', {
 	html: indexTpl,
 	plugins: ['delegated',"doms"],
+	options:{
+		tag:"action-type",
+		eventType:"tap"
+	},
 	bindActions: {
 
 	},

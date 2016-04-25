@@ -5,6 +5,9 @@
         <div class="compileBtn"><b>编辑</b></div>
     </div>
     <div class="m-shoppingcart-body" style="">
+        <section class="bth" action-type="btn">点我 test</section>
+    </div>
+    <div class="m-home-footer">
 
     </div>
-</>
+</div>

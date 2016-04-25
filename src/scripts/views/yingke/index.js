@@ -7,5 +7,6 @@ require("./action/classtify.js");
 require("./action/user.js");
 
 QApp.config({
-  indexView: 'index'
+  indexView: 'index',
+  hashRouter: true
 });

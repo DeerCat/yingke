@@ -9,7 +9,9 @@
             <div class="pullDownArea">
 
                 <div class="iconfont">&#xe60f;</div>
-                <div>下拉刷新</div>
+                <div class="step2">正在刷新</div>
+                <div class="step1">下拉刷新</div>
+
             </div>
             <div class="swiper-focus">
               <div class="swiper-wrapper">
@@ -22,23 +24,23 @@
 
             <ul class="category-level1">
                 <li>
-                    <a href="javascript:void(0)"><img src="icon/category1/dyzb.png"></a>
+                    <a href="javascript:void(0)" action-type="dyzb"><img src="icon/category1/dyzb.png"></a>
                     <i>电影周边</i>
                 </li>
                 <li>
-                    <a href="javascript:void(0);"><img src="icon/category1/srlp.png"></a>
+                    <a href="javascript:void(0);" action-type="srlp"><img src="icon/category1/srlp.png"></a>
                     <i>生日礼品</i>
                 </li>
                 <li>
-                    <a href="javascript:void(0);"><img src="icon/category1/bgyp.png"></a>
+                    <a href="javascript:void(0);" action-type="bgyp"><img src="icon/category1/bgyp.png"></a>
                     <i>办公用品</i>
                 </li>
                 <li>
-                    <a href="javascript:void(0);"><img src="icon/category1/jydq.png"></a>
+                    <a href="javascript:void(0);" action-type="jydq"><img src="icon/category1/jydq.png"></a>
                     <i>家用电器</i>
                 </li>
                 <li>
-                    <a href="javascript:void(0);"><img src="icon/category1/jjyp.png"></a>
+                    <a href="javascript:void(0);" action-type="jjyp"><img src="icon/category1/jjyp.png"></a>
                     <i>家居用品</i>
                 </li>
             </ul>
@@ -54,7 +56,8 @@
                 </div>
             </div>
             <div class="pullUpArea">
-                <div>上拉加载</div>
+                <div class="step1">上拉加载更多</div>
+                <div class="step2">正在加载</div>
                 <div class="iconfont">&#xe80b;</div>
             </div>
         </div>

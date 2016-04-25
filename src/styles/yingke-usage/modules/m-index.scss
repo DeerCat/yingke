@@ -16,6 +16,7 @@
 	.m-index-body {
 		@include flex(1);
 		width:100% !important;
+	  //position:relative;
 	}
 	.m-index-nav {
 		@include box-sizing(border-box);

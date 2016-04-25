@@ -7,25 +7,28 @@ QApp.defineView('shoppingcart', {
 
 		plugins: ['delegated', 'ajax','doms', {
 			name: 'avalon',
-			options: function (vm) {
-				vm.list = [];
+			options:{
+				tag:"action-type",
+				eventType:"tap"
 			}
 		}],
-		//modules:[{
-		//	name:"content",
-		//	container:".m-shoppingcart-body",
-		//	views:[""],
-		//	defaultTag:"user"
-		//}],
-		//init: {
-		//	curTag:"user",
-		//	vm: null
-		//},
 
-		bindActions: {},
+
+
+		bindActions: {
+			"btn":function(){
+				//alert('nihao')
+				QApp.router.open("test")
+			}
+		},
 		ready: function () {
 			$(".m-shoppingcart .backBtn").on("tap",function(){
-				//QApp.router.open("user")
+				require('./shoppingcart/test.js')
+
+			})
+			var vm = avalon.define({
+				$id :"test",
+				name:"zhaoyong"
 			})
 
 		},
